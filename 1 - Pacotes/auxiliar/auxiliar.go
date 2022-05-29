@@ -4,7 +4,5 @@ import "fmt"
 
 //Escrever registra mensagem na tela
 func Escrever() {
-	fmt.Println("Escrevendo do arquivo do pacote auxiliar")
-	escrever2()
-	
+	fmt.Println("Escrevendo do arquivo do pacote auxiliar")	
 }
