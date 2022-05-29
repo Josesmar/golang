@@ -9,7 +9,7 @@ func main() {
 	//quantidade de bits
 	//int8, int16, int32, int64
 
-	var numero8 int8 = 100
+	var numero8 int8 = 127
 	var numero16 int16 = 10000
 	var numero32 int32 = 1000000000
 	var numero64 int64 = 1000000000000000000
