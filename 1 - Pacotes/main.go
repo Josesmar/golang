@@ -13,3 +13,5 @@ func main() {
 	erro := checkmail.ValidateFormat("josesmar@gmail.com")
 	fmt.Print(erro)
 }
+
+
