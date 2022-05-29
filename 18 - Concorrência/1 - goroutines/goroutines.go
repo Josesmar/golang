@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	go escrever("Olá mundo!") // goroutine (Executa essa função, mas não espera terminar a execução para seguir com as outras execuções)
+   go escrever("Olá mundo!") // goroutine (Executa essa função, mas não espera terminar a execução para seguir com as outras execuções)
 	escrever("Programando em Go!")
 }
 
