@@ -16,7 +16,7 @@ func main() {
 	// Fibonacci
 	// 1 1 2 3 5 8 13
 
-	posicao := uint(8)
+	posicao := uint(12)
 	fmt.Println("Soma", fibonacci(posicao))
 
 	for i := uint(1); i <= posicao; i++ {
