@@ -21,6 +21,7 @@ func main() {
 	}
 
 	f("texto da função 1")
-	resultadoSoma, _ := calculosMatematicos(10, 10) // usando o anderline é ignorado o valor de retorno da função
+	resultadoSoma, pegarOutroRetorno := calculosMatematicos(10, 10) // usando o anderline é ignorado o valor de retorno da função
 	println(resultadoSoma)
+	fmt.Println(pegarOutroRetorno)
 }
