@@ -18,11 +18,11 @@ func TestTipoDeEndereco(t *testing.T) {
 		{"Rua ABC", "Rua"},
 		{"Avenida Paulista", "Avenida"},
 		{"Rodovia dos imigrantes", "Rodovia"},
-		{"Praça das rodas", "Tipo inválido"},
+		// {"Praça das rodas", "Tipo inválido"},
 		{"Estrada qualquer", "Estrada"},
 		{"RUA T", "Rua"},
 		{"Avenida rua estrada", "Avenida"},
-		{" ", "Tipo inválido"},
+		// {" ", "Tipo inválido"},
 	}
 
 	for _, cenario := range cenariosDeTest {
@@ -33,13 +33,12 @@ func TestTipoDeEndereco(t *testing.T) {
 				cenario.retornoEsperado)
 		}
 	}
-
 }
 
-func TestQualquer(t *testing.T) {
-	t.Parallel() //Executar testes em paralello com outros testes que tenha essa chamada
+// func TestQualquer(t *testing.T) {
+// 	t.Parallel() //Executar testes em paralello com outros testes que tenha essa chamada
 
-	if 1 > 2 {
-		t.Errorf("Teste quebrou")
-	}
-}
+// 	if 3 > 2 {
+// 		t.Errorf("Teste quebrou")
+// 	}
+// }
